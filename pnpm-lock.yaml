@@ -301,7 +301,7 @@ importers:
   packages/kit:
     specifiers:
       '@nuxt/schema': workspace:*
-      '@types/lodash.template': ^4
+      '@types/lodash': ^4
       '@types/semver': ^7.3.13
       c12: ^1.1.2
       consola: ^2.15.3
@@ -311,7 +311,7 @@ importers:
       ignore: ^5.2.4
       jiti: ^1.17.1
       knitwork: ^1.0.0
-      lodash.template: ^4.5.0
+      lodash: ^4.5.0
       mlly: ^1.1.1
       pathe: ^1.1.0
       pkg-types: ^1.0.2
@@ -331,7 +331,7 @@ importers:
       ignore: 5.2.4
       jiti: 1.17.1
       knitwork: 1.0.0
-      lodash.template: 4.5.0
+      lodash: 4.17.21
       mlly: 1.1.1
       pathe: 1.1.0
       pkg-types: 1.0.2
@@ -341,7 +341,7 @@ importers:
       unimport: 3.0.2
       untyped: 1.2.2
     devDependencies:
-      '@types/lodash.template': 4.5.1
+      '@types/lodash': 4.14.191
       '@types/semver': 7.3.13
       unbuild: 1.1.2
 
@@ -5912,6 +5912,7 @@ packages:
 
   /lodash._reinterpolate/3.0.0:
     resolution: {integrity: sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==}
+    dev: true
 
   /lodash.assignin/4.2.0:
     resolution: {integrity: sha512-yX/rx6d/UTVh7sSVWVSIMjfnz95evAgDFdb1ZozC35I9mSFCkmzptOzevxjgbQUsc78NR44LVHWjsoMQXy9FDg==}
@@ -5979,11 +5980,13 @@ packages:
     dependencies:
       lodash._reinterpolate: 3.0.0
       lodash.templatesettings: 4.2.0
+    dev: true
 
   /lodash.templatesettings/4.2.0:
     resolution: {integrity: sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==}
     dependencies:
       lodash._reinterpolate: 3.0.0
+    dev: true
 
   /lodash.union/4.6.0:
     resolution: {integrity: sha512-c4pB2CdGrGdjMKYLA+XiRDO7Y0PRQbm/Gzg8qMj+QH+pFVAoTp5sBpO0odL3FjoPCGjK96p6qsP+yQoiLoOBcw==}
